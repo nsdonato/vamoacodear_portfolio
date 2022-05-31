@@ -1,0 +1,1 @@
+node-sass -w style.scss c:/Ada/ada_frontend/Agosto/Clase_8/ADAC8_Tarea_Portfolio/css/style.css

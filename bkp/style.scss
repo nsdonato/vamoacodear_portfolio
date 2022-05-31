@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+$main_font: "Montserrat", sans-serif;
+$main_color: #1abc9c;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+  font-family: $main_font;
+}
+
+nav {
+  background-color: #343a40;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav_menu {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu_logo {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu_options {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.menu_btn_mobile {
+  display: none;
+}
+
+.link_portfolio:hover {
+  color: $main_color;
+}
+
+a,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#main {
+  background-color: $main_color;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_title {
+  font-size: 63px;
+}
+
+.main_avatar {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.main_subtitle {
+  font-size: 18px;
+  text-align: center;
+}
+
+#portfolio {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+#portfolio {
+  color: #000000;
+}
+
+.portfolio_flex_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.portfolio_flex_item img {
+  border-radius: 10px;
+  width: 350px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.portfolio_title {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.portfolio_title,
+.about_title,
+.contact_title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.portfolio_guion,
+.contact_guion {
+  border-bottom: 2px solid #000000;
+}
+
+.portfolio_guion,
+.about_guion,
+.contact_guion {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  width: 70px;
+}
+
+#about {
+  background-color: $main_color;
+  height: 300px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.about_guion {
+  border-bottom: 2px solid #ffffff;
+}
+
+.about_text_container {
+  display: flex;
+  justify-content: center;
+}
+
+.about_text_1,
+.about_text_2 { 
+  display: flex;
+  flex-grow: 1;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.about_text_1 {
+  display: flex;
+  justify-content: flex-end;
+  text-align: left;
+}
+.about_text_2 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.about_text_2 {
+  vertical-align: top;
+}
+
+.about_title,
+.contact_title {
+  padding-top: 50px;
+}
+
+#contact {
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.contact_header {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.contact_guion {
+  border-bottom: 2px solid #000000;
+}
+
+.contact_form {
+  margin: 0 auto;
+  width: 500px;
+}
+
+form > input[type="text"],
+input[type="email"],
+textarea {
+  border: none;
+  border-bottom: 1px solid #e8e8e8;
+  display: block;
+  font-family: $main_font;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+  width: 500px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea::placeholder {
+  font-weight: 800;
+}
+
+.btn_green {
+  background-color: #53bd9d;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: $main_font;
+  padding: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #328269;
+}
+
+@media (max-width: 600px) {
+  .menu_options {
+    flex-grow: 0;
+  }
+
+  .menu_portfolio,
+  .menu_about,
+  .menu_contact {
+    display: none;
+  }
+
+  .menu_logo {
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+
+  .menu_btn_mobile{
+    display: flex;
+  }
+  
+  .btn_green {
+    background-color: #53bd9d;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: $main_font;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .about_text_1,
+  .about_text_2 {
+    font-size: 13px;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
