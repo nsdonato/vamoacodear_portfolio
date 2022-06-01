@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import { ContatcMe } from './components/ContactMe/ContactMe'
 import { About } from './components/About/About'
-import logo from './logo.svg'
 import './App.css'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
 
   return (
     <div className="App">
+      <NavBar />
       <ContatcMe />
       <About />
     </div>
