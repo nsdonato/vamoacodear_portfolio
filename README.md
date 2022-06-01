@@ -24,7 +24,9 @@ El sitio estatico, esta en la carpeta bkp, no borrar nada.
 3) Cada une se va a llevar un componente para realizar
 4) Clonar el repositorio, comando: git clone https://github.com/nsdonato/vamoacodear_portfolio
 5) Instalar dependencias, comando: yarn
-6) Para arrancar con la tarea primero deben hacer un branch para el componente especifico, si no saben como hacer un branch, lo vemos.
+6) Para arrancar con la tarea primero deben:
+6.1) git pull para tener lo último
+6.2) hacer un branch para el componente especifico, si no saben como hacer un branch, comando es: git checkout -b feature/nombreDelComponente (reemplazar nombreDelComponente por el de ustedes)
 
 Asignación de componentes:
 1. NavBar -
