@@ -1,10 +1,13 @@
+import { useState } from 'react'
+import { ContatcMe } from './components/ContactMe/ContactMe'
+import logo from './logo.svg'
 import './App.css'
 
 function App() {
 
   return (
     <div className="App">
-      {/* Aca vamos a ir importando los componentes que vayamos haciendo, segun corresponda */}
+      <ContatcMe />
     </div>
   )
 }
