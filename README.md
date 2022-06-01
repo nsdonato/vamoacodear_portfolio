@@ -29,12 +29,12 @@ El sitio estatico, esta en la carpeta bkp, no borrar nada.
 6.2) hacer un branch para el componente especifico, si no saben como hacer un branch, comando es: git checkout -b feature/nombreDelComponente (reemplazar nombreDelComponente por el de ustedes)
 
 Asignación de componentes:
-1. NavBar -
-2. NavBarItem -
+1. NavBar - Noe
+2. NavBarItem - noe
 3. Hero - (ezkiel_82 - Ezequiel Magui)
 4. Projects -
 5. ProjectItem  -
-6. AboutMe -
-7. ContactMe - (sanlorenzo1995 - cuervodie)
+6. AboutMe - Juli
+7. ContactMe - juli
 8. ContactForm - Juli (froakilol)
 9. Button - noe
