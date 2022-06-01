@@ -1,0 +1,18 @@
+.about_title,
+.contact_title {
+  padding-top: 50px;
+}
+
+#contact {
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.contact_header {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.contact_guion {
+  border-bottom: 2px solid #000000;
+}
