@@ -1,0 +1,12 @@
+.btn_green {
+    background-color: #53bd9d;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #328269;
+}
