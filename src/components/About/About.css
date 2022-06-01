@@ -1,73 +1,73 @@
 #about {
-    background-color: #1abc9c;
-    
-    margin-bottom: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-    width: 100%;
-    height: auto;
-  }
-  
-  .about_guion {
-    border-bottom: 2px solid #ffffff;
-    width: 200px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    padding-bottom: 0px;
-    width: 130px;
-  }
-  
-  .about_text_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .about_text_1,
-  .about_text_2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    font-size: 18px;
-    padding-left: 30px;
-  }
-  
-  .about_text_1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  .about_text_2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    text-align: left;
-  }
-  
-  .about_text_2 {
-    vertical-align: top;
-    color: #ffffff;
-  }
-  .portfolio_title,
+  background-color: #1abc9c;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.about_guion {
+  border-bottom: 2px solid #ffffff;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-bottom: 0px;
+  width: 130px;
+}
+
+.about_text_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about_text_1,
+.about_text_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.about_text_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about_text_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.about_text_2 {
+  vertical-align: top;
+  color: #ffffff;
+}
+
+.portfolio_title,
 .about_title,
 .contact_title {
-    padding-top: 90px;
+  padding-top: 90px;
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;

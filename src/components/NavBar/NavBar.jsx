@@ -1,3 +1,4 @@
+import NavBarItem from "../NavBarItem/NavBarItem"
 import "./NavBar.css"
 
 const NavBar = () => (
@@ -7,12 +8,10 @@ const NavBar = () => (
                 <li class="menu_ada"><a href="#vamoacodear">VAMOACODEAR</a></li>
             </div>
             <div class="menu_options">
-                <li class="menu_portfolio">
-                    <a href="#portfolio">PORTFOLIO</a>
-                </li>
-                <li class="menu_about"><a href="#about">ABOUT</a></li>
-                <li class="menu_contact"><a href="#contact">CONTACT</a></li>
-                <li class="menu_btn_mobile btn_green"><a href="#">MENU</a></li>
+                <NavBarItem className="menu_portfolio" nameLink="PORTFOLIO" />
+                <NavBarItem className="menu_about" nameLink="ABOUT" />
+                <NavBarItem className="menu_contact" nameLink="CONTACT" />
+                <NavBarItem className="menu_btn_mobile btn_green" nameLink="MENU" />
             </div>
         </ul>
     </nav>
