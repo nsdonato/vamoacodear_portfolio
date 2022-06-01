@@ -1,3 +1,5 @@
+import { ContactForm } from "../ContactForm/ContactForm"
+
 export const ContatcMe = ()=>{
     return (
         <section id="contact">
@@ -5,6 +7,7 @@ export const ContatcMe = ()=>{
             <h1 className="contact_title">CONTACT ME</h1>
             <div className="contact_guion"></div>
             </div>
+            <ContactForm />
         </section>
     )
 }
