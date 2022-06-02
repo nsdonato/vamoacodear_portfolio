@@ -15,6 +15,7 @@ export const Projects = () =>{
                <ProjectItem className="portfolio_flex_item portfolio_safe w_33" src="bkp/image/safe.png" alt="Imagen de una caja fuerte" ></ProjectItem>
                <ProjectItem className="portfolio_flex_item portfolio_submarine w_33" src="bkp/image/submarine.png" alt="Imagen de un submarino" ></ProjectItem>
                 
+                
             </div>
     </section>
     )
