@@ -18,3 +18,44 @@ body {
   font-family: "Montserrat", sans-serif;
   padding: 15px;
 }
+
+@media (max-width: 600px) {
+  .menu_options {
+    flex-grow: 0;
+  }
+
+  .menu_portfolio,
+  .menu_about,
+  .menu_contact {
+    display: none;
+  }
+
+  .menu_logo {
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+
+  .menu_btn_mobile {
+    display: flex;
+  }
+
+  .btn_green {
+    background-color: #53bd9d;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .about_text_1,
+  .about_text_2 {
+    font-size: 13px;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

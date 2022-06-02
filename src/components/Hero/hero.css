@@ -5,33 +5,35 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 
 .main_title {
-  font-size: 63px; }
-  
-  .main_avatar {
-    width: 200px;
-    display: flex;
-    justify-content: center; 
-    animation-name: noe-apears;
-    animation-duration: 2s;
-  }
-    
-    @keyframes noe-apears {
-      from{
-            margin-top: -100%;
-            
-          }
+  font-size: 63px;
+}
 
-      to{
-          margin-top: 0%;
-         
-        }
-    }
+.main_avatar {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  animation-name: noe-apears;
+  animation-duration: 2s;
+}
+
+@keyframes noe-apears {
+  from {
+    margin-top: -100%;
+
+  }
+
+  to {
+    margin-top: 0%;
+
+  }
+}
 
 .main_subtitle {
   font-size: 18px;
-  text-align: center; }
+  text-align: center;
+}

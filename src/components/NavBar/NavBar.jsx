@@ -4,10 +4,10 @@ import "./NavBar.css"
 const NavBar = () => (
     <nav>
         <ul id="nav_menu">
-            <div class="menu_logo">
-                <li class="menu_ada"><a href="#vamoacodear">VAMOACODEAR</a></li>
+            <div className="menu_logo">
+                <li className="menu_ada"><a href="#vamoacodear">VAMOACODEAR</a></li>
             </div>
-            <div class="menu_options">
+            <div className="menu_options">
                 <NavBarItem className="menu_portfolio" nameLink="PORTFOLIO" />
                 <NavBarItem className="menu_about" nameLink="ABOUT" />
                 <NavBarItem className="menu_contact" nameLink="CONTACT" />

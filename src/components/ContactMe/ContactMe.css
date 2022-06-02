@@ -14,4 +14,8 @@
 
 .contact_guion {
   border-bottom: 2px solid #000000;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  width: 70px;
 }

@@ -28,48 +28,28 @@
 
 .about_text_1,
 .about_text_2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   font-size: 18px;
   padding-left: 30px;
 }
 
 .about_text_1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
+  /* display: flex; */
   justify-content: flex-end;
   text-align: left;
-  color: #ffffff;
 }
 
 .about_text_2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
+  /* display: flex; */
   justify-content: flex-start;
   text-align: left;
 }
 
 .about_text_2 {
   vertical-align: top;
-  color: #ffffff;
 }
 
-.portfolio_title,
-.about_title,
-.contact_title {
-  padding-top: 90px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #ffffff;
-  font-family: 'Times New Roman', Times, serif;
+.about_title {
+  padding-top: 50px;
 }

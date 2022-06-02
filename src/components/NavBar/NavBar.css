@@ -32,33 +32,8 @@ nav {
     display: none;
 }
 
-.link_portfolio:hover {
-    color: #1abc9c;
-}
-
 a,
 a:visited {
     color: #ffffff;
     text-decoration: none;
-}
-
-#portfolio {
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
-
-#portfolio {
-    color: #000000;
-}
-
-.portfolio_flex_content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.portfolio_flex_item img {
-    border-radius: 10px;
-    width: 350px;
 }
